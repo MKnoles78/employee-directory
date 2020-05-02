@@ -9,7 +9,7 @@ const Item = (props) => {
         },
     };
 
-    const [employeeImageUrl, setEmployeeImageUrl] = use State(
+    const [employeeImageUrl, setEmployeeImageUrl] = useState (
         "https://images.dog.ceo/breeds/mountain-bernese/n02107683_3034.jpg"
     );
     
@@ -28,7 +28,7 @@ const Item = (props) => {
     <div className="row">
         <div className="col">
             <img
-            src={EmployeeImageUrl}
+            src={employeeImageUrl}
             alt="Employee avatar"
             style={styles.employeePhoto}
             ></img>

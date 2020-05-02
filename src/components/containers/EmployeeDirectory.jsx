@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import List from "../components/EmployeeDirectory//List";
+import List from "../EmployeeDirectory/List";
 import axios from "axios";
 
 class EmployeeDirectory extends Component {
@@ -38,7 +38,7 @@ class EmployeeDirectory extends Component {
         event.preventDefault();
         console.log("HandleSubmit");
         const employees = [...this.state.employees];
-        const filterEmployees = employees.filter((employee) => {
+        const filteredEmployees = employees.filter((employee) => {
             const regex = new RegExp(this.state.searchTerm, "gi");
             return employee.employee_name.match(regex);
         });
