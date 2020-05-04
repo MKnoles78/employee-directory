@@ -1,20 +1,4 @@
-// import React from 'react';
-// import { BrowserRouter as Router, Route } from "react-router-dom";
-// import NavBar from "./components/Shared/NavBar";
-// import Home from "./components/containers/Home";
-// import EmployeeDirectory from "./components/containers/EmployeeDirectory";
-// // import './App.css';
 
-// function App() {
-//   return (
-//     <Router>
-//       <NavBar />
-//       <Route exact path="/" component={Home} />
-//       <Route exact path="/directory" component={EmployeeDirectory} />
-//     </Router>
-//   );
-
-// }
 import React from "react";
 import Home from "./components/containers/Home";
 import NavBar from "./components/Shared/NavBar";
@@ -25,28 +9,28 @@ const employees = [
     firstName: "Scott",
     lastName: "Summers",
     codename: "Cyclops",
-    "email": "scott.summers@xmen.com"
+    email: "scott.summers@xmen.com"
   },
   {
     id: 2,
     firstName: "Jean",
     lastName: "Grey",
     codename: "Phoenix",
-    "email": "jean.grey@xmen.com"
+    email: "jean.grey@xmen.com"
   },
   {
     id: 3,
     firstName: "Bobby",
     lastName: "Drake",
     codename: "Iceman",
-    "email": "bobby.drake@xmen.com"
+    email: "bobby.drake@xmen.com"
   },
   {
     id: 4,
     firstName: "Warren",
     lastName: "Worthington III",
     codename: "Angel",
-    "email": "warren.worthington@xmen.com"
+    email: "warren.worthington@xmen.com"
   },
   {
     id: 5,
