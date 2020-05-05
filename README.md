@@ -1,68 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Budget-Tracker (Homework Assignment for PWA)
 
-## Available Scripts
+## Purpose
 
-In the project directory, you can run:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-### `npm start`
+The purpose of this assignment is develop an employee directory using React. No files are provice until React is deployed usng `create-react-app`. Once created the application's UI needs to be broken up into components.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Functionality
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The app renders a table of employees which can be sorted and filtered by at least one category and property respectively.
 
-### `npm test`
+<!-- ![Employee Directory](Images/employeedirectory.gif) -->
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## User Story
+* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Business Context
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Development
 
-### `npm run eject`
+1. Create an empty repo on GitHub.
+2. Create React app using the name of the repo with the `create-react-app repot-name`
+3. Import bootstrap into index.html
+4. Clear out the src folder, except for index.js and App.js
+5. Cleaned up syntax to accomodate for React.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Once the app has been down to the starting point.  I created an array of employees in the `App.js` file to work with as a starting point.  Another option would be to use an Axios call and find an API which offers a list of names.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Two pages or containers will be used, a home and an employee directory page to display the employees.  Since a NavBar will be used on all pages its placed in a Shared folder.  A employee directory folder was created and a `employees.json` was created to store the array.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
