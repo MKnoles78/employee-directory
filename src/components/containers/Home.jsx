@@ -2,16 +2,38 @@ import React from "react";
 
 
 function Home(props) {
+
+
   return (
       <>
         <table className="table table-striped">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Codename</th>
-            <th scope="col">Email</th>
+            <th scope="col">
+            {/* <button type="button" onClick={() => setSortedField('#')}> */}
+              #
+            {/* </button> */}
+            </th>
+            <th scope="col">
+            {/* <button type="button" onClick={() => setSortedField('first')}> */}
+              First
+            {/* </button> */}
+            </th>
+            <th scope="col">
+            {/* <button type="button" onClick={() => setSortedField('last')}> */}
+              Last
+            {/* </button>  */}
+              </th>
+            <th scope="col">
+            {/* <button type="button" onClick={() => setSortedField('codename')}> */}
+              Codename
+            {/* </button> */}
+            </th>  
+            <th scope="col">
+            {/* <button type="button" onClick={() => setSortedField('codename')}> */}
+              Email
+            {/* </button>  */}
+            </th>
           </tr>
         </thead>
         <tbody>
